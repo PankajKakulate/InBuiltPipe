@@ -1,0 +1,24 @@
+<h2>Inside Demo Component</h2>
+<!--  String Pipe -->
+<h3>{{Name}}</h3>
+<h2>{{Name | lowercase}}</h2>
+<h2>{{Name | uppercase}}</h2>
+<h2>{{Name | titlecase}}</h2>
+<h2>{{Name | slice : 12}}</h2>
+<!--  Number Pipe -->
+<h2>{{Value | number: '2.2-5' }}</h2>
+<h2>{{Value | number: '1.2-5' }}</h2>
+<h2>{{Value | number: '1.4-4' }}</h2>
+<h2>{{Value | number: '4.4-8' }}</h2>
+<!--  Currency Pipe -->
+<h2>{{98 |currency : 'INR'}}</h2>
+<!-- Date Pipe -->
+<h2>{{Today }}</h2>
+<h2>{{Today | date}}</h2>
+<h2>{{Today | date : 'dd/mm/yyyy'}}</h2>
+<h2>{{Today | date:'short'}}</h2>
+<h2>{{Today | date:'shortDate'}}</h2>
+<h2>{{Today | date:'shortTime'}}</h2>
+<!-- JSON Pipe -->
+<h2>{{Book}}</h2>
+<h2>{{Book | json}}</h2>
