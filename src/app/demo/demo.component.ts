@@ -17,6 +17,12 @@ export class DemoComponent {
   public Book={
     "Name" : "Learning Angular",
     "Author" : "James Peter",
-    "Price" : 8000
+    "Price" : 8000,
+    "BookEdition":[
+                    { "Name":"Pankaj Kakulate",
+                      "Author":"Ram Shiv Bhola"
+                    }
+                  ]
+    
   }
 }
